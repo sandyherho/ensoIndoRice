@@ -8,3 +8,10 @@ pr_resp <- deseason(pr, cycle.window = 12)
 
 sst_predDns <- denoise(sst_pred, expl.var = 0.9)
 pr_respDns <- denoise(pr_resp, expl.var = 0.9)
+
+ina_modes <- eot(x = sst_predDns, y = pr_respDns, n = 1,
+                 standardised = FALSE, reduce.both = FALSE, 
+                 verbose = FALSE)
+
+plot(ina_modes, y = 1, 
+     show.bp = TRUE, arrange = "long")
