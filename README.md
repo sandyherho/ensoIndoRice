@@ -13,7 +13,7 @@ This code is released under the [GPL-3.0 License](https://github.com/sandyherho/
 
 If you find this code useful in your study, please, consider citing our paper:
 
-`
+```
 @article{herho21,
          author={S. H. S. Herho and F. Brahmana and K. E. P. Herho and D. E. Irawan},
          title={Does ENSO significantly affect rice production in Indonesia? A preliminary study using computational time-series approach},
@@ -24,7 +24,7 @@ If you find this code useful in your study, please, consider citing our paper:
          pages={69 - 76},
          doi={https://doi.org/10.18517/ijods.2.2.69-76.2021}
 }
-`
+```
 ### Requirements
 
 We run the code under the following computational environments:
